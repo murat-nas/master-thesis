@@ -14,7 +14,6 @@ from sklearn.metrics import mean_squared_error
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation
 from keras.layers import LSTM, Bidirectional, GRU
-from keras.layers.recurrent import LSTM
 import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
 
@@ -24,7 +23,7 @@ plt.style.use('fivethirtyeight')
 
 # Datayı Yükleyelim
 path = r'c:\sxk9gd_6ay.xlsx'
-data = pd.read_excel(path, date_parser=[0])
+data = pd.read_excel(path, date_format=[0])
 # İlk 5 Satır
 data.head()
 
