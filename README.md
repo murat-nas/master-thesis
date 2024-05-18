@@ -28,12 +28,10 @@ Train and Test Data Sets
 
 PERFORMANCE RESULTS
 
-To evaluate the performance of the ANN structures given in this work, we used different performance measures. 
+To evaluate the performance of the ANN structures given in this work, we used different performance measures: 
 
 Mean Absolute Percentage Error (MAPE), 
 Mean Absolute Scaled Error (MASE), 
 Root Mean Squared Error (RMSE) , 
 Symmetric Mean Absolute Percentage Error (SMAPE), 
-Median Absolute Percentage Error (MdAPE) 
-
-are given to show the performance.
+Median Absolute Percentage Error (MdAPE) are given to show the performance.
