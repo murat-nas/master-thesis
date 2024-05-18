@@ -22,9 +22,17 @@ Time series that will be formed from data sets are of two types: univariate and 
 
 Data sets are created with 6 past and 3 future values for multi-step forecasting with the window sliding method. Our goal is to estimate the average speed, for this purpose we want to predict the 3-hour future average speed for 3-hour using 6 hours of past data.
 
-
-
 Train and Test Data Sets
 
 5-month, 7-month and 12-month data sets were created by combining monthly data from each of the three individual sensors. Each sensor data set was used independently and was not correlated with each other. The data sets are split into 60% training data and 40% test data.
 
+PERFORMANCE RESULTS
+To evaluate the performance of the ANN structures given in this work, we used different performance measures. 
+
+Mean Absolute Percentage Error (MAPE), 
+Mean Absolute Scaled Error (MASE), 
+Root Mean Squared Error (RMSE) , 
+Symmetric Mean Absolute Percentage Error (SMAPE), 
+Median Absolute Percentage Error (MdAPE) 
+
+are given to show the performance.
