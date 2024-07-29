@@ -30,8 +30,11 @@ PERFORMANCE RESULTS
 
 To evaluate the performance of the ANN structures given in this work, we used different performance measures: 
 
+
 Mean Absolute Percentage Error (MAPE), 
 Mean Absolute Scaled Error (MASE), 
 Root Mean Squared Error (RMSE) , 
 Symmetric Mean Absolute Percentage Error (SMAPE), 
 Median Absolute Percentage Error (MdAPE) are given to show the performance.
+
+During my coding , I really learned a lot from the website https://machinelearningmastery.com, especially about the preparation of the data for time series forecasting.
