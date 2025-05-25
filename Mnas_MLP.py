@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
+
 
 from pandas import read_excel, DataFrame, concat
 import numpy as np
@@ -123,7 +122,7 @@ class MnasMLP:
         return np.array(preds)
 
 # --- DATA HAZIRLIK ---
-# (Dosya yolları ve veri şekillendirme sizin orijinal kodunuzdaki gibi)
+
 dataset = read_excel(r'C:\sxk96j_2_6ay.xlsx', header=0, index_col=0)
 values = dataset.values
 values = values.astype('float32')
@@ -238,8 +237,6 @@ scale = mean_absolute_error(test_y_inv[1:], test_y_inv[:-1])
 mase_t = np.mean(np.abs(e_t / scale))
 print("Test data score: %.2f MASE" % mase_t)
 
-
-#%%
 
 
 # --- Grafikler ---
